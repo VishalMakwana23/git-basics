@@ -1,0 +1,28 @@
+=======================================================================================================
+													            ** Git Commands **															
+=======================================================================================================
+
+
+1.  Initialize an empty git repository. 				-->		git init
+2.  Add user name to git config.						--> 	git config --global user.name "user-name"
+3.  Add user email to git config						-->     git config --global user.email "user-email"
+4.  Add all files to staging area.						-->		git add .
+5.  Add a commit/ Commit the code.						-->		git commit -m "commmit message"
+6.  Create a branch. 									-->		git branch "branch-name"
+7.  Change the branch. 									-->		git checkout "branch-name"
+8.  Delete branch locally.								-->		git branch -d "localBranchName"
+9.  Delete branch remotely								-->		git push origin --delete "remoteBranchName"
+10. Add Particular file to staging area.				-->		git add "file-name"
+11. See the working tree status.						-->		git status.
+12. See the commit logs.								-->		git log / git log --oneline (for one line commit logs.)
+13. Create a new branch and checkout to it.				-->     git checkout -b "branch-name"
+14. Amend the letest commit message.					-->		git commit -amend -m "new message"
+15. Add files to staging and commit directly.			--> 	git commit -am "commit message"
+16. Revert the Commit.									--> 	git revert "commit hash"
+17. Undoing using GIT RESET	upto an commit.				--> 	git reset "commit id" [--hard](will remove the changes as well)
+18. List All branches.									--> 	git branch
+19. Switch the branch. 									-->		git switch "branch-name"
+20. Merge xyz branch to master.							-->		git merge "branch-name"(xyz)
+21. Squash/Rebase commits into branch 					-->		git rebase -i HEAD~(no of commits from top to bottom for squashing)
+22. Merge branch with squashing commits					--> 	git merge "branch-name" --squash
+23. Hooks in git
